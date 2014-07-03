@@ -9,7 +9,6 @@ $content = $handler->getDataContent;
 	<meta charset="UTF-8">
 	<title>Grid CSS</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/resetgrid.css">
-	<!--<link rel="stylesheet" type="text/css" href="resources/css/jquery-ui.css">-->
 	<link rel="stylesheet" type="text/css" href="resources/css/main.css">
     <script type="application/javascript" src="resources/js/jquery.js"></script>
     <script type="application/javascript" src="resources/js/jquery-ui.js"></script>

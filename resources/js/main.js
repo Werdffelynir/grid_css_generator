@@ -35,11 +35,12 @@ $(function() {
     $( "#grid-amount" ).val( $( "#grid-slider" ).slider( "value" ) );
 
     $("#form-generator").submit(function(){
+        var prefix = $('select[name=prefix]').val();
         var width = $('#width-amount').val();
         var padding = $('#padding-amount').val();
         var grid = $('#grid-amount').val();
         $.ajax({
-            url:'main.php?p=form&width='+width+'&padding='+padding+'&grid='+grid,
+            url:'index.php?p=form&width='+width+'&padding='+padding+'&grid='+grid+'&prefix='+prefix,
             type: 'get',
             success:function(data){
                 $('.result').html(data);

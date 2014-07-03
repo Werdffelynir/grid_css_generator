@@ -4,6 +4,7 @@
     color: #92d6ff;
     background-color: #000000;
 }
+
 *::-moz-selection {
     color: #92d6ff;
     background-color: #000000;
@@ -18,44 +19,48 @@ body {
     font-size: 12px;
 }
 
-a{
+a {
     text-decoration: underline;
     color: #FF3300;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
     color: #FFCC00;
 }
 
-p{
+p {
     margin-bottom: 4px;
 }
 
-h1{
+h1 {
     color: #FF6600;
     margin: 10px 0 10px;
     text-shadow: 0px 1px 0px #242424;
 }
-h2{
+
+h2 {
     color: #FF6600;
     margin: 10px 0 6px;
     text-shadow: 0px 1px 0px #242424;
 }
-h3{
+
+h3 {
     text-shadow: 0px 1px 0px #242424;
 }
-h4{
+
+h4 {
     color: #696969;
     text-shadow: 0px 1px 0px #242424;
 }
 
-
 /* CONSTRUCTION
  ************************************************************************ */
-html, body{
+html, body {
     height: 100%;
 }
-.wrapper{
+
+.wrapper {
     width: 960px;
     margin: 0 auto;
     border-left: 1px solid #959595;
@@ -63,14 +68,16 @@ html, body{
     box-shadow: 0 0 15px 10px #242424;
     min-height: 100%;
 }
-.header{
+
+.header {
     display: block;
 }
 
-.content{
+.content {
     padding: 10px;
 }
-.footer{
+
+.footer {
     border-top: 1px solid #959595;
     bottom: 0;
     margin-top: 100%;
@@ -82,21 +89,20 @@ html, body{
     color: #FF3300;
 }
 
-
-
-.header h2{
+.header h2 {
     margin: 0;
     padding: 10px 0 0 10px;
     height: 40px;
 }
 
-.navigation{
+.navigation {
     background: #2B2B2B;
     border-top: 1px solid #959595;
     border-bottom: 1px solid #959595;
     text-align: center;
 }
-.navigation ul{
+
+.navigation ul {
     list-style: none;
 }
 
@@ -104,40 +110,42 @@ html, body{
     display: inline-block;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     display: inline-block;
     padding: 6px 72px;
     text-decoration: none;
     text-shadow: 1px 1px #000000;
 }
 
-.navigation ul li a:hover{
+.navigation ul li a:hover {
     background: #242424;
 }
-
-
-
 
 /* slider common styles */
 .ui-slider {
     position: relative;
     text-align: left;
 }
+
 .ui-slider-horizontal {
     height: .4em;
     border-radius: 2px;
 }
+
 .ui-widget-content {
     background-color: #f6931f;
     color: #222222;
 }
+
 .ui-slider-horizontal .ui-slider-range-max {
     right: 0;
 }
+
 .ui-slider-horizontal .ui-slider-range {
     top: 0;
     height: 100%;
 }
+
 .ui-slider .ui-slider-range {
     position: absolute;
     z-index: 1;
@@ -146,15 +154,18 @@ html, body{
     border: 0;
     background-position: 0 0;
 }
+
 .ui-widget-header {
     border: 1px solid #aaaaaa;
     color: #222222;
     font-weight: bold;
 }
+
 .ui-slider-horizontal .ui-slider-handle {
     top: -.3em;
     margin-left: -.6em;
 }
+
 .ui-slider .ui-slider-handle {
     position: absolute;
     z-index: 2;
@@ -165,40 +176,61 @@ html, body{
     outline: none;
 }
 
-
-.form_table tr td{
+.form_table tr td {
     padding: 5px 10px;
 }
-.form_table input[type=text]{
-    border:0;
-    color:#f6931f;
-    font-weight:bold;
+
+.form_table input[type=text] {
+    border: 0;
+    color: #f6931f;
+    font-weight: bold;
     background: transparent;
 }
-.form_table select{
-    color:#f6931f;
+
+.form_table select {
+    color: #f6931f;
     background: #222222;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
 }
-#form-generator input[type=submit]{
-     width: 340px;
-     font-size: 20px;
-     font-weight: bold;
-     color:#222222;
-     background: #FF3300;
-     text-shadow: 1px 1px #DA0E00;
-     border: none;
-     margin-top: 20px;
-     margin-left: 302px;
+
+#form-generator input[type=submit] {
+    outline: none;
+    width: 340px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+    background: #FF3300;
+    text-shadow: 1px 1px #DA0E00;
+    border: none;
+    margin-top: 20px;
+    margin-left: 302px;
+    box-shadow: -1px 1px 5px 1px #222222;
+    cursor: pointer;
 }
-#form-generator input[type=submit]:hover{
-    color:#242424;
+
+#form-generator input[type=submit]:hover {
+    color: #242424;
     background: #DA0E00;
 }
 
-
+.gen{}
+.gen a{
+    color: #CA6EFF;
+    font-weight: bold;
+}
+.gen-code{
+    margin-top: 15px;
+}
+.gen-code code{
+    display: block;
+    padding: 10px;
+    color: #F6931F;
+    background-color: #1C1C1C;
+    box-shadow: inset 0 0 40px 12px #0C0C0C;
+}
 
 
 

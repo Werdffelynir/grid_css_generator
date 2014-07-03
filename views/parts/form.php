@@ -7,10 +7,9 @@
     </tr>
     <tr>
         <td>
-            <select>
-                <option selected>G</option>
-                <option>grid-</option>
-                <option>g_</option>
+            <select name="prefix">
+                <option value=".G" selected>G</option>
+                <option value=".grid-" >grid-</option>
             </select>
         </td>
         <td>Prefix css property</td>
