@@ -1,0 +1,54 @@
+.wrap{
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #0C0C0C;
+}
+.wrap>div{}
+.wrap>div>div{
+    background-color: #0C0C0C;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.wrap>div>div>span{
+    padding: 5px;
+    display: block;
+}
+.ex-header{
+    height: 25px;
+    text-align: center;
+    color: #FFCC00;
+}
+.ex-menu{
+    color: #CA6EFF;
+}
+
+.ex-content{}
+
+.ex-footer{
+    height: 25px;
+    text-align: center;
+    color: #FFCC00;
+}
+.exconin{
+    background: transparent !important;
+}
+.exconin>div:first-child{
+    margin-bottom: 5px;
+}
+.exconin>div>div{
+    background: #0C0C0C;
+    height: 50px;"
+}
+.exconin>div>div>span{
+    padding: 5px;
+}
+.exconin{
+
+
+}
+
+
+
+
+

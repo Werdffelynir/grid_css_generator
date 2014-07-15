@@ -9,6 +9,8 @@ $content = $handler->getDataContent;
 	<meta charset="UTF-8">
 	<title>Grid CSS</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/resetgrid.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/examples-grid.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/examples.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/main.css">
     <script type="application/javascript" src="resources/js/jquery.js"></script>
     <script type="application/javascript" src="resources/js/jquery-ui.js"></script>
@@ -25,7 +27,7 @@ $content = $handler->getDataContent;
 			</div>
 		</div>
 
-		<div class="content G12">
+		<div class="content G12 clear">
             <?php echo $content; ?>
 		</div>
 

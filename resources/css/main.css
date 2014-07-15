@@ -43,10 +43,14 @@ h2 {
     color: #FF6600;
     margin: 10px 0 6px;
     text-shadow: 0px 1px 0px #242424;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h3 {
     text-shadow: 0px 1px 0px #242424;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h4 {
@@ -66,7 +70,7 @@ html, body {
     border-left: 1px solid #959595;
     border-right: 1px solid #959595;
     box-shadow: 0 0 15px 10px #242424;
-    min-height: 100%;
+    /*min-height: 100%;*/
 }
 
 .header {
@@ -75,14 +79,15 @@ html, body {
 
 .content {
     padding: 10px;
+    min-height: 600px;
 }
 
 .footer {
     border-top: 1px solid #959595;
     bottom: 0;
-    margin-top: 100%;
+    /*margin-top: 100%;*/
     padding: 3px 0 0 0;
-    position: absolute;
+    /*position: absolute;*/
     text-align: center;
     width: 958px;
     background: #2B2B2B;
@@ -230,12 +235,35 @@ html, body {
     color: #F6931F;
     background-color: #1C1C1C;
     box-shadow: inset 0 0 40px 12px #0C0C0C;
+    overflow: hidden;
 }
 
+.example-code code{
+    width: 620px;
+    display: block;
+    padding: 10px;
+    color: #F6931F;
+    background-color: #1C1C1C;
+    box-shadow: inset 0 0 40px 12px #0C0C0C;
+    overflow: hidden;
+}
 
+.a-list{
+     list-style: none;
+     margin-left: 25px;
+ }
+.a-list li{
+    margin-bottom: 5px;
+}
+.a-class{
+    color: #F6931F;
+    background-color: #1C1C1C;
+    box-shadow: inset 0 0 40px 12px #0C0C0C;
+    padding: 5px;
+    display: inline-block;
+}
 
-
-
+.a-text{}
 
 
 
